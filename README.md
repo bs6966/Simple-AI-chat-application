@@ -4,50 +4,63 @@ This project is a simple AI chat application with a React frontend and a Node.js
 
 ## Prerequisites
 
-- Node.js installed (https://nodejs.org/)
-- npm (Node Package Manager) installed
+Before you begin, ensure you have the following installed on your machine:
 
-## Frontend Setup
+- [Node.js](https://nodejs.org/) (v14.0.0 or later)
+- [npm](https://www.npmjs.com/) (Comes with Node.js)
 
-1. **Navigate to the `frontend` directory:**
-   ```bash
-   cd frontend
-Install dependencies:
+## Getting Started
 
-Copy code
-npm install
-Start the frontend:
+### Frontend Setup
 
-Copy code
-npm start
-The application will be available at http://localhost:3000.
+1. Navigate to the `frontend` directory:
 
-Backend Setup
-Navigate to the backend directory:
+    ```bash
+    cd frontend
+    ```
 
+2. Install dependencies:
 
-Copy code
-cd backend
-Install dependencies:
+    ```bash
+    npm install
+    ```
 
+3. Start the frontend:
 
-Copy code
-npm install
-Start the backend server:
+    ```bash
+    npm start
+    ```
 
+   The application will be available at http://localhost:3000.
 
-Copy code
-node server.js
-The server will be running at http://localhost:3001.
+### Backend Setup
 
-Usage
-Visit http://localhost:3000 in your web browser to use the AI chat application. Type a message and click "Send" to interact with the AI.
+1. Navigate to the `backend` directory:
 
-Additional Notes
-If you encounter any issues, make sure the backend server is running, and the frontend is pointing to the correct backend URL (update MessageInputField.js if needed).
+    ```bash
+    cd backend
+    ```
 
-Customize the predefined responses in the server.js file to enhance the AI's interaction.
+2. Install dependencies:
 
-Have fun chatting with the AI!
+    ```bash
+    npm install
+    ```
 
+3. Start the backend server:
 
+    ```bash
+    node server.js
+    ```
+
+   The server will be running at http://localhost:3001.
+
+## Usage
+
+1. Visit http://localhost:3000 in your web browser.
+2. Type a message and click "Send" to interact with the AI.
+
+## Additional Notes
+
+- If you encounter any issues, make sure the backend server is running, and the frontend is pointing to the correct backend URL (update `MessageInputField.js` if needed).
+- Customize the predefined responses in the `server.js` file to enhance the AI's interaction.
